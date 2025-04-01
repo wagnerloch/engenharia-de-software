@@ -6,6 +6,8 @@ import { Util } from "./Util";
 
 const teclado = prompt();
 
+console.log("Início do jogo!");
+
 let personagens: Personagem[] = [];
 personagens.push(new Priest("Fábio de Melo"));
 personagens.push(new Guerreiro("Ragnar"));
